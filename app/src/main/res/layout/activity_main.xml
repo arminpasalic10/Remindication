@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/purple_700"
+    android:layout_height="198dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:id="@+id/titlepage"
+        android:textAlignment="center"
+        android:text="@string/remidication"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/subtitle"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="@string/mediaction_reminder_hint"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp">
+    </View>
+</LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/medication_recycler_view"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+      >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/endpage"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="@string/no_more_reminders"/>
+    </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:baselineAlignBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/add_reminder_button"
+            android:tint="@color/purple_700"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_baseline_add_24">
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Remindication</string>
+    <string name="remidication">Remindication</string>
+    <string name="mediaction_reminder_hint">Remember to take your medication on time</string>
+    <string name="create_new_reminder">Create New Reminder</string>
+    <string name="which_medication">Which medication?</string>
+    <string name="add_title">Add title</string>
+    <string name="time">Time</string>
+    <string name="description">Description</string>
+    <string name="create_reminder">Create Reminder</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_more_reminders">No More Reminders</string>
+    <string name="delete_reminder">Delete reminder</string>
+    <string name="save_reminder">Save reminder</string>
+    <string name="medication_confirmation">Medication confirmation</string>
+    <string name="confirm">Confirm</string>
+    <string name="later">Remind me</string>
+    <string name="click_button_to_authenticate">Click button to authenticate</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="google_map_key">AIzaSyAXwkbGIB-k9fJB6tHBkiGQPXzYOdVuhdo</string>
+    <string name="not_at_home">Not at home?</string>
+    <string name="show_nearby_pharmacies">Show nearby pharmacies</string>
+    <string name="or">OR</string>
+    <string name="remind_me_after">Remind me after</string>
+</resources>

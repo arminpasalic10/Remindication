@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625441913881",
+    "project_id": "remidication",
+    "storage_bucket": "remidication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625441913881:android:825af4e81e0f832463fe88",
+        "android_client_info": {
+          "package_name": "com.example.remidication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625441913881-kprfq2sd980080l02s65dmn96oble641.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXbUEunLqwhZLyQqF40NcERroGopTUH2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625441913881-kprfq2sd980080l02s65dmn96oble641.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
